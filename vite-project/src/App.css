@@ -35,11 +35,11 @@
 }
 
 .SearchInput {
-  padding: 1%;
-  font-size: 16px;
+  padding: 4%;
+  font-size: 18px;
   border: 3px solid #d22424;
   border-radius: 10px;
-  width: 35%;
+  width:20em
 }
 .SearchSuggestions {
   list-style: none;
@@ -55,4 +55,26 @@
 
 .SearchSuggestions li:last-child {
   border-bottom: none;
+}
+
+.MovieDetails {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.MovieDetails h1{
+  color: #d22424;
+}
+button.AddList {
+  background-color: red;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  width: 25%;
+  border-radius: 5px;
+}
+.MovieID{
+  display: none;
 }
