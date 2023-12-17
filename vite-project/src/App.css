@@ -1,0 +1,58 @@
+.NavMain a{
+  color:#fff;
+  text-decoration: none;
+  padding: auto;
+  font-size:  18px ;
+}
+.NavMain a:hover{
+  color:red;
+  padding-bottom: 2%;
+  border-bottom: 2px solid #fff;
+}
+.logo{
+  width: 200px;
+  height: auto;
+}
+.LogoNav {
+  display: flex;
+  margin: 1em;
+  justify-content: space-between;
+}
+.NavMain.Horizontal {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  align-items: center;
+}
+.NavChild.Bg-blue {
+  margin: 1EM;
+}
+
+.SearchBar {
+  margin: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+.SearchInput {
+  padding: 1%;
+  font-size: 16px;
+  border: 3px solid #d22424;
+  border-radius: 10px;
+  width: 35%;
+}
+.SearchSuggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.SearchSuggestions li {
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.SearchSuggestions li:last-child {
+  border-bottom: none;
+}
